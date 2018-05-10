@@ -13,5 +13,8 @@ end
 def assign_rooms(array)
   room_assignment_array = []
   array.each_with_index do |e, i|
-    
+    message = "Hello, #{e}! You'll be assigned to room #{i+1}!"
+    room_assignment_array.push(message)
+  end
+  room_assignment_array
 end

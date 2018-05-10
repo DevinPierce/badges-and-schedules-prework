@@ -29,5 +29,3 @@ def printer(array)
     puts room
   end
 end
-
-printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])

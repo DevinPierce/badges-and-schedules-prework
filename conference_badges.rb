@@ -7,5 +7,5 @@ def batch_badge_creator(array)
   for name in array do
     badgeArray << badge_maker(name)
   end
-  #badgeArray
+  badgeArray
 end

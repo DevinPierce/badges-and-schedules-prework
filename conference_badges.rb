@@ -3,11 +3,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-  badgeArray = []
+  badge_array = []
   for name in array do
-    badgeArray << badge_maker(name)
+    badge_array << badge_maker(name)
   end
-  badgeArray
+  badge_array
 end
 
 def assign_rooms(array)

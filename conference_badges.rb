@@ -12,5 +12,5 @@ end
 
 def assign_rooms(array)
   room_assignment_array = []
-  array.each_with_index
+  array.each_with_index do 
 end
